@@ -1,0 +1,7 @@
+patch for skyeye-1.2.6_rc1
+
+skyeye_makefile.patch is for gcc5
+
+Ref
+* https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=778122
+* http://launchpadlibrarian.net/212554060/skyeye_1.2.5-4_1.2.5-5.diff.gz

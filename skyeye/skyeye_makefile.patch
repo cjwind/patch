@@ -1,0 +1,88 @@
+--- skyeye-1.2.6_rc1/device/Makefile.in	2008-08-31 10:45:27.000000000 +0800
++++ skyeye-1.2.6_rc1_/device/Makefile.in	2016-05-30 23:37:00.964956441 +0800
+@@ -117,7 +117,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/utils/Makefile.in	2008-08-31 10:45:27.000000000 +0800
++++ skyeye-1.2.6_rc1_/utils/Makefile.in	2016-05-30 23:37:15.257262203 +0800
+@@ -80,7 +80,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/arch/bfin/Makefile.in	2008-08-31 10:45:25.000000000 +0800
++++ skyeye-1.2.6_rc1_/arch/bfin/Makefile.in	2016-05-30 23:35:39.179201666 +0800
+@@ -72,7 +72,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/arch/mips/Makefile.in	2008-08-31 10:45:26.000000000 +0800
++++ skyeye-1.2.6_rc1_/arch/mips/Makefile.in	2016-05-30 23:36:10.543875685 +0800
+@@ -76,7 +76,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/arch/arm/Makefile.in	2008-08-31 10:45:25.000000000 +0800
++++ skyeye-1.2.6_rc1_/arch/arm/Makefile.in	2016-05-30 23:35:15.130683906 +0800
+@@ -118,7 +118,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/arch/coldfire/Makefile.in	2008-08-31 10:45:26.000000000 +0800
++++ skyeye-1.2.6_rc1_/arch/coldfire/Makefile.in	2016-05-30 23:35:56.307569922 +0800
+@@ -93,7 +93,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/arch/ppc/Makefile.in	2008-08-31 10:45:26.000000000 +0800
++++ skyeye-1.2.6_rc1_/arch/ppc/Makefile.in	2016-05-30 23:36:35.296406658 +0800
+@@ -75,7 +75,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+--- skyeye-1.2.6_rc1/Makefile.in	2008-08-31 10:45:27.000000000 +0800
++++ skyeye-1.2.6_rc1_/Makefile.in	2016-05-30 23:34:45.422043064 +0800
+@@ -105,7 +105,7 @@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -fgnu89-inline
+ COMMON_INCLUDES = @COMMON_INCLUDES@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
